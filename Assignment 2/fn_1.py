@@ -1,12 +1,14 @@
 def division(num1,num2):
-    #num1 = int(input())
-    #num2 = int(input())
     if num2 == 0:
-        print(0)
+        return 0
     else:
         div = num1/num2
-        div = div-int(div)
-    
-    print(div)
+        if div == 0:
+            return 0
+        else:
+            div = div-int(div)
+            return div
 
-division(5,0)
+print(division(5,2))
+print(division(5,0))
+print(division(0,5))
