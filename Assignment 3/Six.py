@@ -1,8 +1,8 @@
 class Player:
     def __init__(self):
-        self.name = None
-        self.jersy_number = None
-        self.position = None
+        self.name = ""
+        self.jersy_number = ""
+        self.position = ""
 
 # Write Your Class Code Here
 player1 = Player()

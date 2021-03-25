@@ -25,6 +25,6 @@ if j1.name == j2.name:
 else:
     print('different')
 #Write your code for 2,3 here
-
-print("In the First case it is printing different because both j1 and j2 are different objects")
-print("In the Second case before if statement 'j2.name == 'Heath Ledger''. Here 'Heath Ledger' is the element of j1 object. For this reason It is printing same.")
+print("=====================")
+print("The output of First if/else block is showing different because j1 and j2 are different objects.So, their address will not be same.")
+print("The output of Second if/else block is showing same because in 22 line before the if statement we have declared 'j2.name='Heath Ledger'. Here 'Heath' Ledger is the element of j1 object. So, when we are checking in the if statement it is printing same.")

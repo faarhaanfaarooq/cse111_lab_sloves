@@ -27,4 +27,5 @@ print("Name of President: ",wadiya.name)
 print("Designation: ",wadiya.designation)
 print("Number of Wife: ",wadiya.num_of_wife)
 print("Is he/she a dictator: ",wadiya.dictator)
-
+print('=====================')
+print("previous information lost")

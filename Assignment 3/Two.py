@@ -22,9 +22,11 @@ print("Name of this flower:",flower2.name)
 print("Color of this flower:",flower2.color)
 print ("Number of petal:",flower2. num_of_petal)
 #Write the code for subtask 2 and 3 here
-
+print('=====================')
+print("Address of 'flower1' & 'flower2'")
 print(flower1)
 print(flower2)
+print('=====================')
 if flower1==flower2:
     print("They are same")
 else:
